@@ -1,0 +1,116 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+checkbat v1.0
+(AKA: check battery status)
+
+Copyright (c) 2018 Jason Miller
+
+http://www.wanderinghuman.com
+http://www.wanderinghuman.com/blog
+https://www.github.com/jmiller099
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+=========================================================================
+Contents
+=========================================================================
+
+1. Overview
+2. Prerequisites and Dependencies
+3. Installation
+4. Usage
+5. Change Log
+6. TODO List
+7. License
+8. Contact Info
+
+-------------------------------------------------------------------------
+1. Overview
+-------------------------------------------------------------------------
+
+   This is the readme for the checkbat tool. It is packaged as an iPad 
+app. Has only been tested on an iPad with a 32bit processor and running 
+the 9.3.5 version of IOS.
+
+   This application allows for checking the battery level of the iPad. 
+The iPad needs to be rooted and then accessed either via an ssh session 
+or a local terminal app.
+
+   Two use cases compelled writing this to see battery status remotely:
+
+- Leaving it in the shade connected to a solar charger aimed at the sun
+- Leaving it on a charging station
+
+-------------------------------------------------------------------------
+2. Prerequisites and Dependencies
+-------------------------------------------------------------------------
+
+- The iPad needs to be rooted
+- Either, you need a terminal app on the ipad
+- or you need ssh enabled to remotely access a terminal
+- or both; I use both
+- iPad IOS 9.3.5, may work on other versions but untested
+   
+-------------------------------------------------------------------------
+3. Installation
+-------------------------------------------------------------------------
+
+   Generally installation involves:
+
+- unzip the package
+- may need to execute chmod 755 checkbat
+- may wish to copy to a path in $PATH, so it can be run from anywhere
+- For example: /usr/sbin
+- If copying to another path, check whether it was chmod 755
+
+   Generally uninstallation is achieved by deleting the file(s)
+
+-------------------------------------------------------------------------
+4. Usage
+-------------------------------------------------------------------------
+
+   checkbat 
+      - this will tell you the battery percentage remaining
+
+   checkbat -v
+      - this will tell you the battery percentage remaining
+      - along with the maximum and current capacities in mah
+
+-------------------------------------------------------------------------
+5. Change Log
+-------------------------------------------------------------------------
+
+v1.0
+April 16, 2018
+- Initial Version
+
+-------------------------------------------------------------------------
+6. TODO List
+-------------------------------------------------------------------------
+
+   No features planned. Open to feature requests and bug reports.
+
+-------------------------------------------------------------------------
+7. License
+-------------------------------------------------------------------------
+
+   This is free software; you can redistribute it and/or modify it under
+the terms of the GNU Library General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+License along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+-------------------------------------------------------------------------
+8. Contact Info
+-------------------------------------------------------------------------
+
+Communications by email to <tatrader@gmail.com> or to the github page.
+
+Visit http://www.wanderinghuman.com for other stuff, SW updates, or out 
+of sheer boredom!
